@@ -17,7 +17,7 @@ const SAMPLE_DATA = [
 	},
 	{
 		title: 'Gaming',
-		total: 1000,
+		total: 1900,
 		color: '#F0F',
 	},
 ];
@@ -38,10 +38,42 @@ export default function Home() {
 				isOpen={isOpen}
 				closeModal={closeModal}
 			>
-				<p className="text-sm text-gray-200">
-					Your payment has been successfully submitted. We’ve sent you an email
-					with all of the details of your order.
-				</p>
+				<form action="#" method="POST" className="mx-auto max-w-xl">
+					<div className="grid grid-cols-1 gap-x-8 gap-y-2 sm:grid-cols-2">
+						<div>
+							<label
+								htmlFor="first-name"
+								className="block text-sm font-semibold leading-6 text-gray-400"
+							>
+								Expense Amount
+							</label>
+							<div className="mt-1">
+								<input
+									type="text"
+									name="first-name"
+									id="first-name"
+									className="bg-slate-400 border-slate-400 block w-full rounded border-0 px-3.5 py-2 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+								/>
+							</div>
+						</div>
+						<div>
+							<label
+								htmlFor="first-name"
+								className="block text-sm font-semibold leading-6 text-gray-400"
+							>
+								Description
+							</label>
+							<div className="mt-1">
+								<input
+									type="text"
+									name="description"
+									id="description"
+									className="bg-slate-400 border-slate-400 block w-full rounded border-0 px-3.5 py-2 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+								/>
+							</div>
+						</div>
+					</div>
+				</form>
 			</ModalDialog>
 			<main className="container max-w-2xl p-6 mx-auto">
 				<section className="py-3">
