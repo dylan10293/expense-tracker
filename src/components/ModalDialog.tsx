@@ -45,16 +45,6 @@ const ModalDialog = ({ heading, isOpen, closeModal, children }: Props) => {
 										{heading}
 									</Dialog.Title>
 									<div className="mt-2">{children}</div>
-
-									<div className="mt-4 flex flex-row-reverse">
-										<button
-											type="button"
-											className="btn btn-primary"
-											onClick={() => closeModal()}
-										>
-											Submit
-										</button>
-									</div>
 								</Dialog.Panel>
 							</Transition.Child>
 						</div>
