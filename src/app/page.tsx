@@ -50,9 +50,9 @@ export default function Home() {
 							<div className="mt-1">
 								<input
 									type="text"
-									name="first-name"
-									id="first-name"
-									className="bg-slate-400 border-slate-400 block w-full rounded border-0 px-3.5 py-2 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+									name="description"
+									id="description"
+									className="block w-full rounded border-0 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600"
 								/>
 							</div>
 						</div>
@@ -68,7 +68,7 @@ export default function Home() {
 									type="text"
 									name="description"
 									id="description"
-									className="bg-slate-400 border-slate-400 block w-full rounded border-0 px-3.5 py-2 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+									className="block w-full rounded border-0 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600"
 								/>
 							</div>
 						</div>

@@ -7,8 +7,12 @@
     @apply text-white bg-slate-900 relative;
   }
 
-  button{
+  button {
     @apply hover:scale-110 transition-all duration-100;
+  }
+
+  input {
+    @apply bg-slate-400 border-slate-400 text-gray-900 px-3 py-2 placeholder:text-gray-400 sm:text-sm sm:leading-6
   }
 }
 
