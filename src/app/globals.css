@@ -8,7 +8,7 @@
   }
 
   button {
-    @apply hover:scale-110 transition-all duration-100;
+    @apply hover:scale-105 transition-all duration-100;
   }
 
   input {
